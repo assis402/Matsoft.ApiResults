@@ -1,0 +1,7 @@
+{
+	"descriptionDictonary": {
+		"PT_BR": "Biblioteca para facilitar o retorno de dados em APIs",
+		"EN_US": "Library to facilitate the return of data in APIs"
+	},
+	"tags": ["Backend", ".NET 7", "NuGet Package"],
+}
