@@ -8,7 +8,7 @@ namespace ApiResults.Helpers
     /// <summary>
     /// Class <c>Utils</c> has internal utility methods to assist in creating api responses.
     /// </summary>
-    public static class Utils
+    public static class Extensions
     {
         public static string Description(this Enum value)
         {
