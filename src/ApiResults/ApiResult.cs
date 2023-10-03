@@ -41,9 +41,9 @@ namespace ApiResults
         public dynamic Data { get; set; }
 
         /// <summary>
-        /// This method convert the <c>ApiResult</c> instance in a <c>ObjectResult</c>.
+        /// This method convert the <c>ApiResult</c> instance in a <c>ActionResult</c>.
         /// </summary>
-        public ObjectResult Convert()
-            => new(this) { StatusCode = StatusCode };
+        public static implicit operator ActionResult(ApiResult apiResult)
+            => new ObjectResult(apiResult) { StatusCode = apiResult.StatusCode };
     }
 }
