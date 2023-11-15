@@ -4,5 +4,5 @@
 		"EN_US": "Library to facilitate the return of data in APIs"
 	},
 	"tags": ["Backend", ".NET 7", "NuGet Package"],
-	"nuGetUrl": "https://www.nuget.org/packages/ApiResults"
+	"nuGetUrl": "https://www.nuget.org/packages/Matsoft.ApiResults"
 }
