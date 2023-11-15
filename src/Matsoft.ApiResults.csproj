@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>Matsoft.ApiResults</Title>
+    <Authors>Matheus de Assis</Authors>
+    <Description>A simple package to facilitate the return of data in APIs, including success and error cases. This package was designed to be used in conjunction with the FluentValidation library, but does not rule out independent use.</Description>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/assis402/ApiResults</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>API, API Result, API Response</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RootNamespace>Matsoft.ApiResults</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
